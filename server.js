@@ -82,5 +82,5 @@ app.get('/', function (req, res) {
 
 server.listen(port, function () {
   var port = server.address().port;
-  console.log('App running on port ' + port);
+  console.log('App v 0.0.3 running on port ' + port);
 });
